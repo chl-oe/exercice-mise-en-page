@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+header {
+  width: 1000px;
+  height: 50px;
+  border: 0.5px solid #808080;
+  text-align: center;
+}
+main {
+  display: grid;
+  width: 1000px;
+  height: 400px;
+  border: 0.5px solid #808080;
+  grid-template-areas:
+    "s1 s1 s2 s2"
+    "s1 s1 s3 s3"
+}
+
+s1 {
+  background-color: #916836;
+  border: 0.5px solid #808080;
+  grid-area: s1;
+}
+
+
+footer {
+  width: 1000px;
+  height: 80px;
+  background-color: #c9c9c9;
+  border: 0.5px solid #808080;
+  text-align: center;
+}
+
