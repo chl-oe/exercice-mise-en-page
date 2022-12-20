@@ -5,32 +5,28 @@
 }
 
 header {
-  border: 0.5px solid #000000;
+  border: 0.3px solid #cfcfcf;
 }
 
 .burger {
-  width: 15px;
-  height: 15px;
-  margin-top: 5px;
-  margin-left: 10px;
+  height: 30px;
+  margin: 15px 25px; 
 }
+
 .container {
   display: flex;
   border: 0.5px solid #808080;
   background-color: #e9e9e9;
-  width: 430px;
-  height: 300px;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
-  /*justify-content: space-between;*/
+  justify-content: space-between;
 }
 
 section {
-  width: 100px;
-  height: 100px;
+  flex-basis: calc(25% - 10px);
   background-color: #808080;
-  border: 4px solid #ffffff;
   text-align: center;
-  margin: 0 3px 0 3px;
+  border-bottom: 70px solid #d8d8d8;
+  padding: 100px;
+  margin: 5px 5px;
 }
